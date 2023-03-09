@@ -1,1 +1,1 @@
-# -auth-page
+# auth-page
