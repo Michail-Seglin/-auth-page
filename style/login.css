@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-Medium.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+
+.home {
+    background-color: #E2F0FF;
+    padding: 200px 120px;
+}
+
+.home .imgHome {
+    background-image: url(../assets/1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 525px;
+    height: 390px;
+}
+
+.home h1 {
+    width: 400px;
+    font: 600 26px "Poppins";
+    color: #292731;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.home p {
+    width: 400px;
+    font: 400 16px "Poppins";
+    color: #455360;
+    margin: auto;
+    text-align: center;
+}
+
+.login {
+    padding: 200px 120px;
+    background-color: #F5F5F5;
+}
+
+.text .imgWavingHand {
+    background-image: url(../assets/waving-hand.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+}
+
+.text h1 {
+    font: 600 30px "Poppins";
+    color: #292731;
+    margin: 12px auto 5px;
+}
+
+.text p {
+    font: 400 16px "Poppins";
+    color: #292731;
+}
+
+.auth {
+    margin-top: 45px;
+}
+
+.auth .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.auth .icon {
+    font: 500 16px "Poppins";
+    color: #455360;
+}
+
+.auth .icon .imgIcon {
+    background-image: url(../assets/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    margin: 35px 0 10px;
+}
+
+.auth .icon input {
+    width: 440px;
+    height: 40px;
+    border: 0.8px solid grey;
+    background: #ECF2F7;
+    border-radius: 5px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.auth .inpPhone input::-webkit-input-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpPhone input::-moz-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpPhone input:-ms-input-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpPhone input::-ms-input-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpPhone input::placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.authn p {
+    font: 500 16px "Poppins";
+    color: #455360;
+    margin: 30px 0 10px;
+}
+
+.auth .inpMail input {
+    width: 440px;
+    height: 40px;
+    border: 0.8px solid grey;
+    background: #ECF2F7;
+    border-radius: 5px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.auth .inpMail input::-webkit-input-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpMail input::-moz-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpMail input:-ms-input-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpMail input::-ms-input-placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.auth .inpMail input::placeholder {
+    font: 400 16px "Poppins";
+    color: #7B8389;
+}
+
+.authn .button {
+    background: #4C70FF;
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px 0;
+    margin: 40px 0 20px;
+    font: 500 20px "Poppins";
+    color: #FFFFFF;
+}
+
+.back p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.back p {
+    font: 500 16px "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #292731;
+}
+
+.back .sign {
+    color: #66BCE8;
+    margin-left: 5px;
+}
